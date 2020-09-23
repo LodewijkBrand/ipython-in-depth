@@ -1,8 +1,8 @@
-# PyCon 2019 Jupyter tutorial.
+# A Brief Python Tutorial using Jupyter.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Carreau/ipython-in-depth/pycon-2019?urlpath=%2Flab)
-
-This repository contain material and instructions to follow the "IPython and Jupyter in Depth: High productivity, interactive Python" tutorial during PyCon 2019.
+This repository contain material and instructions from the following sources
+ - "IPython and Jupyter in Depth: High productivity, interactive Python" tutorial taught during PyCon 2019.
+ - CS231n: Convolutional Neural Networks for Visual Recognition taught at Stanford
 
 # Installation
 
