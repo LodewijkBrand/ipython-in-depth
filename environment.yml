@@ -1,4 +1,4 @@
-name: pycon2019
+name: python-intro
 channels:
   - conda-forge
 dependencies:

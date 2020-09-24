@@ -29,12 +29,12 @@ you are using a different python distribution.
 2. To get the tutorial materials, clone this repository. **Please plan to update the materials shortly before the tutorial.**
 
     ```
-    git clone https://github.com/ipython/ipython-in-depth
+    git clone https://github.com/LodewijkBrand/python-intro.git
     ```
 
     To update the materials:
     ```
-    cd ipython-in-depth
+    cd python-intro
     git pull
     ```
 
@@ -45,15 +45,15 @@ you are using a different python distribution.
     Create a conda environment:
 
     ```
-    conda create -n pycon2019 -c conda-forge --yes python=3.7 pip cookiecutter=1.6 'notebook=5.7' pandas=0.24 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs aiohttp line_profiler matplotlib rpy2 simplegeneric trio cython pillow
+    conda create -n python-intro -c conda-forge --yes python=3.7 pip cookiecutter=1.6 'notebook=5.7' pandas=0.24 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs aiohttp line_profiler matplotlib rpy2 simplegeneric trio cython pillow
     ```
 
-    (You could instead create the environment from the supplied environment file with `conda env create -f pycon2019-jupyterlab-tutorial/environment.yml`)
+    (You could instead create the environment from the supplied environment file with `conda env create -f environment.yml`)
 
     Activate the conda environment:
 
     ```
-    conda activate pycon2019
+    conda activate python-intro
     ```
 
     Install extra JupyterLab extensions:
@@ -64,7 +64,7 @@ you are using a different python distribution.
 
 If you open multiple terminal windows make sure to activate the environment in each of them. Your terminal prompt should be preceded by the name of the current environment, for example:
 ```
-(pycon2019) ~/ipython-in-depth $
+(python-intro) ~/python-intro $
 ```
 
 
@@ -81,10 +81,10 @@ $ jupyter lab
 You can delete the environment by using the following in a terminal prompt.
 
 ```
-conda env remove --name pycon2019 --yes
+conda env remove --name python-intro --yes
 ```
 
-This will **not** delete any data, but only the conda environement named `pycon2019` .
+This will **not** delete any data, but only the conda environement named `python-intro` .
 
 # Troubleshooting
 
